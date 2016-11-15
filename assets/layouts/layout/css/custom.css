@@ -1,1 +1,8 @@
 /* here you can put your own css to customize and override the theme */
+.icon-facebook { background-image: url("../img/facebook.png"); }
+.icon-line { background-image: url("../img/line.png"); }
+.icon-lazada { background-image: url("../img/lazada.png"); }
+.icon-web { background-image: url("../img/web.png"); }
+
+.mt-action-datetime { padding-top: 0 !important; }
+.mt-action-buttons  { padding-top: 0 !important; }
