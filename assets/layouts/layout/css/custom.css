@@ -4,8 +4,8 @@
 .icon-lazada { background-image: url("../img/lazada.png"); }
 .icon-web { background-image: url("../img/web.png"); }
 
-.mt-action-datetime { padding-top: 0 !important; }
-.mt-action-buttons  { padding-top: 0 !important; }
+/*.mt-action-datetime { padding-top: 0 !important; }*/
+/*.mt-action-buttons  { padding-top: 0 !important; }*/
 
 .item-stat-title {
   color: #7f90a4;
@@ -20,3 +20,27 @@
   text-align: center;
 }
 
+.todo-sidebar {
+  float: left;
+  width: 230px;
+  margin-right: 20px;
+}
+
+.todo-content {
+  overflow: hidden;
+}
+
+.todo-project-list ul li a {
+  font-size: 14px !important;
+  padding: 8px 10px;
+}
+
+.todo-project-list .nav li a .badge {
+  float: right;
+  margin-top: 1px !important;
+}
+
+.todo-project-list .nav > li.active > a {
+  color: #3f444a;
+  background-color: #f1f4f7 !important;
+}
