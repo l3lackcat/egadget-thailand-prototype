@@ -6,3 +6,17 @@
 
 .mt-action-datetime { padding-top: 0 !important; }
 .mt-action-buttons  { padding-top: 0 !important; }
+
+.item-stat-title {
+  color: #7f90a4;
+  font-size: 11px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.item-stat-detail {
+  color: #7f90a4;
+  font-size: 18px;
+  text-align: center;
+}
+

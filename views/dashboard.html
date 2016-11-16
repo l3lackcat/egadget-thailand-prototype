@@ -31,7 +31,6 @@ License: You must have a valid license purchased only from themeforest(the above
         <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
         <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <!-- <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" /> -->
         <!-- END GLOBAL MANDATORY STYLES -->
         <!-- BEGIN THEME GLOBAL STYLES -->
         <link href="../assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
@@ -40,12 +39,12 @@ License: You must have a valid license purchased only from themeforest(the above
         <!-- BEGIN THEME LAYOUT STYLES -->
         <link href="../assets/layouts/layout/css/layout.min.css" rel="stylesheet" type="text/css" />
         <link href="../assets/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color" />
-        <link href="../assets/layouts/layout/css/custom.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/layouts/layout/css/custom.css" rel="stylesheet" type="text/css" />
         <!-- END THEME LAYOUT STYLES -->
         <link rel="shortcut icon" href="favicon.ico" /> </head>
     <!-- END HEAD -->
 
-    <body class="page-header-fixed page-sidebar-closed-hide-logo page-content-white">
+    <body class="page-header-fixed page-sidebar-closed-hide-logo page-container-bg-solid page-content-white">
         <div class="page-wrapper">
             <!-- BEGIN HEADER -->
             <div class="page-header navbar navbar-fixed-top">
@@ -117,53 +116,46 @@ License: You must have a valid license purchased only from themeforest(the above
                         <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
                         <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
                             <!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
-                            <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
-                            <li class="sidebar-toggler-wrapper hide">
-                                <div class="sidebar-toggler">
-                                    <span></span>
-                                </div>
-                            </li>
-                            <!-- END SIDEBAR TOGGLER BUTTON -->
                             <li class="nav-item start ">
                                 <a href="#" class="nav-link nav-toggle">
                                     <i class="icon-home"></i>
-                                    <span class="title">Dashboard</span>
+                                    <span class="title"> Dashboard </span>
                                 </a>
                             </li>
-                            <li class="nav-item  ">
+                            <li class="nav-item">
                                 <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="icon-diamond"></i>
-                                    <span class="title">Product</span>
+                                    <span class="title"> Product </span>
                                     <span class="arrow"></span>
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">
-                                            <span class="title">Products</span>
+                                            <span class="title"> Products </span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">
-                                            <span class="title">Add Products</span>
+                                            <span class="title"> Add Products </span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#" class="nav-link">
-                                            <span class="title">Category</span>
+                                            <span class="title"> Category </span>
                                         </a>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item start ">
+                            <li class="nav-item start">
                                 <a href="#" class="nav-link nav-toggle">
                                     <i class="icon-home"></i>
-                                    <span class="title">Inventory</span>
+                                    <span class="title"> Inventory </span>
                                 </a>
                             </li>
-                            <li class="nav-item start ">
+                            <li class="nav-item start">
                                 <a href="#" class="nav-link nav-toggle">
                                     <i class="icon-home"></i>
-                                    <span class="title">Warranty</span>
+                                    <span class="title"> Warranty </span>
                                 </a>
                             </li>
                         </ul>
@@ -176,337 +168,123 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="page-content-wrapper">
                     <!-- BEGIN CONTENT BODY -->
                     <div class="page-content">
-                        <!-- BEGIN PAGE HEADER-->
-                        <!-- BEGIN PAGE BAR -->
-                        <div class="page-bar">
-                            <ul class="page-breadcrumb">
-                                <li>
-                                    <span>Page Layouts</span>
-                                </li>
-                            </ul>
-                            <div class="page-toolbar">
-                                <div class="btn-group pull-right">
-                                    <button type="button" class="btn green btn-sm btn-outline dropdown-toggle" data-toggle="dropdown"> Actions
-                                        <i class="fa fa-angle-down"></i>
-                                    </button>
-                                    <ul class="dropdown-menu pull-right" role="menu">
-                                        <li>
-                                            <a href="#">
-                                                <i class="icon-bell"></i> Action</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="icon-shield"></i> Another action</a>
-                                        </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="icon-user"></i> Something else here</a>
-                                        </li>
-                                        <li class="divider"> </li>
-                                        <li>
-                                            <a href="#">
-                                                <i class="icon-bag"></i> Separated link</a>
-                                        </li>
-                                    </ul>
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 bordered">
+                                    <h4 class="widget-thumb-heading">Facebook</h4>
+                                    <div class="widget-thumb-wrap">
+                                        <i class="widget-thumb-icon icon-facebook"></i>
+                                        <div class="widget-thumb-body">
+                                            <span class="widget-thumb-subtitle">THB</span>
+                                            <span class="widget-thumb-body-stat">500,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 bordered">
+                                    <h4 class="widget-thumb-heading">Line</h4>
+                                    <div class="widget-thumb-wrap">
+                                        <i class="widget-thumb-icon icon-line"></i>
+                                        <div class="widget-thumb-body">
+                                            <span class="widget-thumb-subtitle">THB</span>
+                                            <span class="widget-thumb-body-stat">500,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 bordered">
+                                    <h4 class="widget-thumb-heading">Website</h4>
+                                    <div class="widget-thumb-wrap">
+                                        <i class="widget-thumb-icon icon-web"></i>
+                                        <div class="widget-thumb-body">
+                                            <span class="widget-thumb-subtitle">THB</span>
+                                            <span class="widget-thumb-body-stat">500,000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 bordered">
+                                    <h4 class="widget-thumb-heading">Lazada</h4>
+                                    <div class="widget-thumb-wrap">
+                                        <i class="widget-thumb-icon icon-lazada"></i>
+                                        <div class="widget-thumb-body">
+                                            <span class="widget-thumb-subtitle">THB</span>
+                                            <span class="widget-thumb-body-stat">500,000</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- END PAGE BAR -->
-                        <!-- BEGIN PAGE TITLE-->
-                        <!-- <h1 class="page-title">Shop overview</h1> -->
-                        <!-- END PAGE TITLE-->
-                        <!-- END PAGE HEADER-->
-                        <!-- BEGIN DASHBOARD STATS 1-->
                         <div class="row">
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div class="dashboard-stat blue-steel">
-                                    <div class="visual">
-                                        <i class="fa fa-usd"></i>
-                                        <i class="fa fa-usd"></i>
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="portlet light ">
+                                            <div class="portlet-title tabbable-line">
+                                                <div class="caption caption-md">
+                                                    <i class="icon-bar-chart font-dark hide"></i>
+                                                    <span class="caption-subject font-dark bold uppercase"> Orders </span>
+                                                </div>
+                                            </div>
+                                            <!-- STAT -->
+                                            <div class="row list-separated item-stat">
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <div class="item-stat-detail">
+                                                        <a href="#"> 6 Items </a>
+                                                    </div>
+                                                    <div class="uppercase item-stat-title"> Pending </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <div class="item-stat-detail">
+                                                        <a href="#"> 24 Items </a>
+                                                    </div>
+                                                    <div class="uppercase item-stat-title"> Processing </div>
+                                                </div>
+                                            </div>
+                                            <!-- END STAT -->
+                                        </div>
                                     </div>
-                                    <div class="details">
-                                        <div class="number">฿500,000</div>
-                                        <div class="desc">Facebook</div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="portlet light ">
+                                            <div class="portlet-title tabbable-line">
+                                                <div class="caption caption-md">
+                                                    <i class="icon-bar-chart font-dark hide"></i>
+                                                    <span class="caption-subject font-dark bold uppercase">Inventory</span>
+                                                </div>
+                                            </div>
+                                            <!-- STAT -->
+                                            <div class="row list-separated item-stat">
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <div class="item-stat-detail">
+                                                        <a href="#"> 12 Items </a>
+                                                    </div>
+                                                    <div class="uppercase item-stat-title"> Low in stock </div>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                                    <div class="item-stat-detail">
+                                                        <a href="#"> 4 Items </a>
+                                                    </div>
+                                                    <div class="uppercase item-stat-title"> Out of stock </div>
+                                                </div>
+                                            </div>
+                                            <!-- END STAT -->
+                                        </div>
                                     </div>
-                                    <a class="more" href="#">View more</a>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div class="dashboard-stat green-jungle">
-                                    <div class="visual">
-                                        <i class="fa fa-usd"></i>
-                                        <i class="fa fa-usd"></i>
-                                    </div>
-                                    <div class="details">
-                                        <div class="number">฿500,000</div>
-                                        <div class="desc">Line</div>
-                                    </div>
-                                    <a class="more" href="#">View more</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div class="dashboard-stat green">
-                                    <div class="visual">
-                                        <i class="fa fa-usd"></i>
-                                        <i class="fa fa-usd"></i>
-                                    </div>
-                                    <div class="details">
-                                        <div class="number">฿500,000</div>
-                                        <div class="desc">Website</div>
-                                    </div>
-                                    <a class="more" href="#">View more</a>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                                <div class="dashboard-stat red-flamingo">
-                                    <div class="visual">
-                                        <i class="fa fa-usd"></i>
-                                        <i class="fa fa-usd"></i>
-                                    </div>
-                                    <div class="details">
-                                        <div class="number">฿500,000</div>
-                                        <div class="desc">Lazada</div>
-                                    </div>
-                                    <a class="more" href="#">View more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <!-- END DASHBOARD STATS 1-->
-                        <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                 <!-- BEGIN PORTLET-->
                                 <div class="portlet light bordered">
                                     <div class="portlet-title tabbable-line">
                                         <div class="caption">
-                                            <span class="caption-subject font-dark bold uppercase">Revenue</span>
+                                            <span class="caption-subject font-dark bold uppercase">Monthly Sale</span>
                                         </div>
                                     </div>
                                     <div class="portlet-body">
-                                        <div id="statistics_1" class="chart"> </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="portlet light bordered">
-                                    <div class="portlet-title tabbable-line">
-                                        <div class="caption">
-                                            <span class="caption-subject font-dark bold uppercase">Order report</span>
-                                        </div>
-                                        <ul class="nav nav-tabs">
-                                            <li class="active">
-                                                <a href="#overview_1" data-toggle="tab">Top Selling</a>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">Orders
-                                                    <i class="fa fa-angle-down"></i>
-                                                </a>
-                                                <ul class="dropdown-menu pull-right">
-                                                    <li>
-                                                        <a href="#overview_2" data-toggle="tab">Latest 10 Orders</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#overview_2" data-toggle="tab">Pending Orders</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="#overview_2" data-toggle="tab">Completed Orders</a>
-                                                    </li>
-                                                    <li class="divider"></li>
-                                                    <li>
-                                                        <a href="#overview_2" data-toggle="tab">Rejected Orders</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="portlet-body">
-                                        <div class="tab-content">
-                                            <div class="tab-pane active" id="overview_1">
-                                                <div class="table-responsive">
-                                                    <table class="table table-striped table-hover table-bordered">
-                                                        <thead>
-                                                            <tr>
-                                                                <th> Product Name </th>
-                                                                <th> Price </th>
-                                                                <th> Sold </th>
-                                                                <th> </th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="javascript:;"> Apple iPhone 4s - 16GB - Black </a>
-                                                                </td>
-                                                                <td> $625.50 </td>
-                                                                <td> 809 </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="btn btn-sm btn-default">
-                                                                        <i class="fa fa-search"></i> View
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="javascript:;"> Samsung Galaxy S III SGH-I747 - 16GB </a>
-                                                                </td>
-                                                                <td> $915.50 </td>
-                                                                <td> 6709 </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="btn btn-sm btn-default">
-                                                                        <i class="fa fa-search"></i> View
-                                                                    </a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="javascript:;"> Motorola Droid 4 XT894 - 16GB - Black </a>
-                                                                </td>
-                                                                <td> $878.50 </td>
-                                                                <td> 784 </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="btn btn-sm btn-default">
-                                                                        <i class="fa fa-search"></i> View </a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="javascript:;"> Samsung Galaxy Note 4 </a>
-                                                                </td>
-                                                                <td> $925.50 </td>
-                                                                <td> 21245 </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="btn btn-sm btn-default">
-                                                                        <i class="fa fa-search"></i> View </a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="javascript:;"> Regatta Luca 3 in 1 Jacket </a>
-                                                                </td>
-                                                                <td> $25.50 </td>
-                                                                <td> 1245 </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="btn btn-sm btn-default">
-                                                                        <i class="fa fa-search"></i> View </a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="javascript:;"> Samsung Galaxy Note 3 </a>
-                                                                </td>
-                                                                <td> $925.50 </td>
-                                                                <td> 21245 </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="btn btn-sm btn-default">
-                                                                        <i class="fa fa-search"></i> View </a>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                            <div class="tab-pane" id="overview_2">
-                                                <div class="table-responsive">
-                                                    <table class="table table-striped table-hover table-bordered">
-                                                        <thead>
-                                                            <tr>
-                                                                <th> Customer Name </th>
-                                                                <th> Date </th>
-                                                                <th> Amount </th>
-                                                                <th> Status </th>
-                                                                <th> </th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="javascript:;"> David Wilson </a>
-                                                                </td>
-                                                                <td> 3 Jan, 2013 </td>
-                                                                <td> $625.50 </td>
-                                                                <td>
-                                                                    <span class="label label-sm label-warning"> Pending </span>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="btn btn-sm btn-default">
-                                                                        <i class="fa fa-search"></i> View </a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="javascript:;"> Amanda Nilson </a>
-                                                                </td>
-                                                                <td> 13 Feb, 2013 </td>
-                                                                <td> $12625.50 </td>
-                                                                <td>
-                                                                    <span class="label label-sm label-warning"> Pending </span>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="btn btn-sm btn-default">
-                                                                        <i class="fa fa-search"></i> View </a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="javascript:;"> Paul Strong </a>
-                                                                </td>
-                                                                <td> 1 Jun, 2013 </td>
-                                                                <td> $890.85 </td>
-                                                                <td>
-                                                                    <span class="label label-sm label-success"> Success </span>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="btn btn-sm btn-default">
-                                                                        <i class="fa fa-search"></i> View </a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="javascript:;"> Jhon Doe </a>
-                                                                </td>
-                                                                <td> 20 Mar, 2013 </td>
-                                                                <td> $125.00 </td>
-                                                                <td>
-                                                                    <span class="label label-sm label-success"> Success </span>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="btn btn-sm btn-default">
-                                                                        <i class="fa fa-search"></i> View </a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="javascript:;"> Bill Chang </a>
-                                                                </td>
-                                                                <td> 29 May, 2013 </td>
-                                                                <td> $12,125.70 </td>
-                                                                <td>
-                                                                    <span class="label label-sm label-info"> In Process </span>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="btn btn-sm btn-default">
-                                                                        <i class="fa fa-search"></i> View </a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>
-                                                                    <a href="javascript:;"> Paul Strong </a>
-                                                                </td>
-                                                                <td> 1 Jun, 2013 </td>
-                                                                <td> $890.85 </td>
-                                                                <td>
-                                                                    <span class="label label-sm label-success"> Success </span>
-                                                                </td>
-                                                                <td>
-                                                                    <a href="javascript:;" class="btn btn-sm btn-default">
-                                                                        <i class="fa fa-search"></i> View </a>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <div class="chart"> </div>
                                     </div>
                                 </div>
                             </div>
