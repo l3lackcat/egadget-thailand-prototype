@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<!--
+Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.7
+Version: 4.7.1
+Author: KeenThemes
+Website: http://www.keenthemes.com/
+Contact: support@keenthemes.com
+Follow: www.twitter.com/keenthemes
+Dribbble: www.dribbble.com/keenthemes
+Like: www.facebook.com/keenthemes
+Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+Renew Support: http://themeforest.net/item/metronic-responsive-admin-dashboard-template/4021469?ref=keenthemes
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+    <!-- BEGIN HEAD -->
+
+    <head>
+        <meta charset="utf-8" />
+        <title>eGadget Thailand | Admin</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <meta content="Preview page of Metronic Admin Theme #1 for blank page layout" name="description" />
+        <meta content="" name="author" />
+        <!-- BEGIN GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- END GLOBAL MANDATORY STYLES -->
+        <!-- BEGIN THEME GLOBAL STYLES -->
+        <link href="../assets/global/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+        <link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME GLOBAL STYLES -->
+        <!-- BEGIN THEME LAYOUT STYLES -->
+        <link href="../assets/layouts/layout/css/layout.min.css" rel="stylesheet" type="text/css" />
+        <link href="../assets/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color" />
+        <link href="../assets/layouts/layout/css/custom.css" rel="stylesheet" type="text/css" />
+        <!-- END THEME LAYOUT STYLES -->
+        <link rel="shortcut icon" href="favicon.ico" /> </head>
+    <!-- END HEAD -->
+
+    <body class="page-header-fixed page-sidebar-closed-hide-logo page-container-bg-solid page-content-white">
+        <div class="page-wrapper">
+            <!-- BEGIN HEADER -->
+            <div class="page-header navbar navbar-fixed-top">
+                <!-- BEGIN HEADER INNER -->
+                <div class="page-header-inner ">
+                    <!-- BEGIN LOGO -->
+                    <div class="page-logo">
+                        <a href="#">
+                            <img src="../assets/layouts/layout/img/logo.png" alt="logo" class="logo-default" />
+                        </a>
+                        <div class="menu-toggler sidebar-toggler">
+                            <span></span>
+                        </div>
+                    </div>
+                    <!-- END LOGO -->
+                    <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                    <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span></span>
+                    </a>
+                    <!-- END RESPONSIVE MENU TOGGLER -->
+                    <!-- BEGIN TOP NAVIGATION MENU -->
+                    <div class="top-menu">
+                        <ul class="nav navbar-nav pull-right">
+                            <!-- BEGIN USER LOGIN DROPDOWN -->
+                            <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                            <li class="dropdown dropdown-user">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                    <img alt="" class="img-circle" src="../assets/layouts/layout/img/avatar.png" />
+                                    <span class="username username-hide-on-mobile"> Suphakiat Lohasammakul </span>
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-default">
+                                    <li>
+                                        <a href="#">
+                                            <i class="icon-user"></i> My Profile </a>
+                                    </li>
+                                    <li class="divider"> </li>
+                                    <li>
+                                        <a href="page_user_login_1.html">
+                                            <i class="icon-key"></i> Log Out </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- END USER LOGIN DROPDOWN -->
+                        </ul>
+                    </div>
+                    <!-- END TOP NAVIGATION MENU -->
+                </div>
+                <!-- END HEADER INNER -->
+            </div>
+            <!-- END HEADER -->
+            <!-- BEGIN HEADER & CONTENT DIVIDER -->
+            <div class="clearfix"> </div>
+            <!-- END HEADER & CONTENT DIVIDER -->
+            <!-- BEGIN CONTAINER -->
+            <div class="page-container">
+                <!-- BEGIN SIDEBAR -->
+                <div class="page-sidebar-wrapper">
+                    <!-- BEGIN SIDEBAR -->
+                    <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                    <!-- DOC: Change data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                    <div class="page-sidebar navbar-collapse collapse">
+                        <!-- BEGIN SIDEBAR MENU -->
+                        <!-- DOC: Apply "page-sidebar-menu-light" class right after "page-sidebar-menu" to enable light sidebar menu style(without borders) -->
+                        <!-- DOC: Apply "page-sidebar-menu-hover-submenu" class right after "page-sidebar-menu" to enable hoverable(hover vs accordion) sub menu mode -->
+                        <!-- DOC: Apply "page-sidebar-menu-closed" class right after "page-sidebar-menu" to collapse("page-sidebar-closed" class must be applied to the body element) the sidebar sub menu mode -->
+                        <!-- DOC: Set data-auto-scroll="false" to disable the sidebar from auto scrolling/focusing -->
+                        <!-- DOC: Set data-keep-expand="true" to keep the submenues expanded -->
+                        <!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
+                        <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
+                            <!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
+                            <li class="nav-item start ">
+                                <a href="#" class="nav-link nav-toggle">
+                                    <i class="icon-home"></i>
+                                    <span class="title"> Dashboard </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="icon-diamond"></i>
+                                    <span class="title"> Product </span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <span class="title"> Products </span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <span class="title"> Add Products </span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            <span class="title"> Category </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item start">
+                                <a href="#" class="nav-link nav-toggle">
+                                    <i class="icon-home"></i>
+                                    <span class="title"> Inventory </span>
+                                </a>
+                            </li>
+                            <li class="nav-item start">
+                                <a href="#" class="nav-link nav-toggle">
+                                    <i class="icon-home"></i>
+                                    <span class="title"> Warranty </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- END SIDEBAR MENU -->
+                    </div>
+                    <!-- END SIDEBAR -->
+                </div>
+                <!-- END SIDEBAR -->
+                <!-- BEGIN CONTENT -->
+                <div class="page-content-wrapper">
+                    <!-- BEGIN CONTENT BODY -->
+                    <div class="page-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="portlet light ">
+                                    <div class="portlet-title tabbable-line">
+                                        <div class="caption">
+                                            <i class=" icon-social-twitter font-dark hide"></i>
+                                            <span class="caption-subject font-dark bold uppercase">Quick Actions</span>
+                                        </div>
+                                        <ul class="nav nav-tabs">
+                                            <li class="active">
+                                                <a href="#tab_actions_pending" data-toggle="tab"> Pending </a>
+                                            </li>
+                                            <li>
+                                                <a href="#tab_actions_completed" data-toggle="tab"> Completed </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="portlet-body">
+                                        <div class="tab-content">
+                                            <div class="tab-pane active" id="tab_actions_pending">
+                                                <!-- BEGIN: Actions -->
+                                                <div class="mt-actions">
+                                                    <div class="mt-action">
+                                                        <div class="mt-action-body">
+                                                            <div class="mt-action-row">
+                                                                <div class="mt-action-info ">
+                                                                    <div class="mt-action-details ">
+                                                                        <span class="mt-action-author">Natasha Kim</span>
+                                                                        <p class="mt-action-desc">Dummy text of the printing</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mt-action-datetime ">
+                                                                    <span class="mt-action-date">16 Nov 2016</span>
+                                                                </div>
+                                                                <div class="mt-action-buttons ">
+                                                                    <div class="btn-group btn-group-circle">
+                                                                        <button type="button" class="btn btn-outline green btn-sm">Appove</button>
+                                                                        <button type="button" class="btn btn-outline red btn-sm">Reject</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mt-action">
+                                                        <div class="mt-action-img">
+                                                            <img src="../assets/pages/media/users/avatar3.jpg" /> </div>
+                                                        <div class="mt-action-body">
+                                                            <div class="mt-action-row">
+                                                                <div class="mt-action-info ">
+                                                                    <div class="mt-action-icon ">
+                                                                        <i class=" icon-bubbles"></i>
+                                                                    </div>
+                                                                    <div class="mt-action-details ">
+                                                                        <span class="mt-action-author">Gavin Bond</span>
+                                                                        <p class="mt-action-desc">pending for approval</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mt-action-datetime ">
+                                                                    <span class="mt-action-date">3 jun</span>
+                                                                    <span class="mt-action-dot bg-red"></span>
+                                                                    <span class="mt=action-time">9:30-13:00</span>
+                                                                </div>
+                                                                <div class="mt-action-buttons ">
+                                                                    <div class="btn-group btn-group-circle">
+                                                                        <button type="button" class="btn btn-outline green btn-sm">Appove</button>
+                                                                        <button type="button" class="btn btn-outline red btn-sm">Reject</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mt-action">
+                                                        <div class="mt-action-img">
+                                                            <img src="../assets/pages/media/users/avatar2.jpg" /> </div>
+                                                        <div class="mt-action-body">
+                                                            <div class="mt-action-row">
+                                                                <div class="mt-action-info ">
+                                                                    <div class="mt-action-icon ">
+                                                                        <i class="icon-call-in"></i>
+                                                                    </div>
+                                                                    <div class="mt-action-details ">
+                                                                        <span class="mt-action-author">Diana Berri</span>
+                                                                        <p class="mt-action-desc">Lorem Ipsum is simply dummy text</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mt-action-datetime ">
+                                                                    <span class="mt-action-date">3 jun</span>
+                                                                    <span class="mt-action-dot bg-green"></span>
+                                                                    <span class="mt=action-time">9:30-13:00</span>
+                                                                </div>
+                                                                <div class="mt-action-buttons ">
+                                                                    <div class="btn-group btn-group-circle">
+                                                                        <button type="button" class="btn btn-outline green btn-sm">Appove</button>
+                                                                        <button type="button" class="btn btn-outline red btn-sm">Reject</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mt-action">
+                                                        <div class="mt-action-img">
+                                                            <img src="../assets/pages/media/users/avatar7.jpg" /> </div>
+                                                        <div class="mt-action-body">
+                                                            <div class="mt-action-row">
+                                                                <div class="mt-action-info ">
+                                                                    <div class="mt-action-icon ">
+                                                                        <i class=" icon-bell"></i>
+                                                                    </div>
+                                                                    <div class="mt-action-details ">
+                                                                        <span class="mt-action-author">John Clark</span>
+                                                                        <p class="mt-action-desc">Text of the printing and typesetting industry</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mt-action-datetime ">
+                                                                    <span class="mt-action-date">3 jun</span>
+                                                                    <span class="mt-action-dot bg-red"></span>
+                                                                    <span class="mt=action-time">9:30-13:00</span>
+                                                                </div>
+                                                                <div class="mt-action-buttons ">
+                                                                    <div class="btn-group btn-group-circle">
+                                                                        <button type="button" class="btn btn-outline green btn-sm">Appove</button>
+                                                                        <button type="button" class="btn btn-outline red btn-sm">Reject</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mt-action">
+                                                        <div class="mt-action-img">
+                                                            <img src="../assets/pages/media/users/avatar8.jpg" /> </div>
+                                                        <div class="mt-action-body">
+                                                            <div class="mt-action-row">
+                                                                <div class="mt-action-info ">
+                                                                    <div class="mt-action-icon ">
+                                                                        <i class="icon-magnet"></i>
+                                                                    </div>
+                                                                    <div class="mt-action-details ">
+                                                                        <span class="mt-action-author">Donna Clarkson </span>
+                                                                        <p class="mt-action-desc">Simply dummy text of the printing</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mt-action-datetime ">
+                                                                    <span class="mt-action-date">3 jun</span>
+                                                                    <span class="mt-action-dot bg-green"></span>
+                                                                    <span class="mt=action-time">9:30-13:00</span>
+                                                                </div>
+                                                                <div class="mt-action-buttons ">
+                                                                    <div class="btn-group btn-group-circle">
+                                                                        <button type="button" class="btn btn-outline green btn-sm">Appove</button>
+                                                                        <button type="button" class="btn btn-outline red btn-sm">Reject</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mt-action">
+                                                        <div class="mt-action-img">
+                                                            <img src="../assets/pages/media/users/avatar9.jpg" /> </div>
+                                                        <div class="mt-action-body">
+                                                            <div class="mt-action-row">
+                                                                <div class="mt-action-info ">
+                                                                    <div class="mt-action-icon ">
+                                                                        <i class="icon-magnet"></i>
+                                                                    </div>
+                                                                    <div class="mt-action-details ">
+                                                                        <span class="mt-action-author">Tom Larson</span>
+                                                                        <p class="mt-action-desc">Lorem Ipsum is simply dummy text</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mt-action-datetime ">
+                                                                    <span class="mt-action-date">3 jun</span>
+                                                                    <span class="mt-action-dot bg-green"></span>
+                                                                    <span class="mt=action-time">9:30-13:00</span>
+                                                                </div>
+                                                                <div class="mt-action-buttons ">
+                                                                    <div class="btn-group btn-group-circle">
+                                                                        <button type="button" class="btn btn-outline green btn-sm">Appove</button>
+                                                                        <button type="button" class="btn btn-outline red btn-sm">Reject</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- END: Actions -->
+                                            </div>
+                                            <div class="tab-pane" id="tab_actions_completed">
+                                                <!-- BEGIN:Completed-->
+                                                <div class="mt-actions">
+                                                    <div class="mt-action">
+                                                        <div class="mt-action-img">
+                                                            <img src="../assets/pages/media/users/avatar1.jpg" /> </div>
+                                                        <div class="mt-action-body">
+                                                            <div class="mt-action-row">
+                                                                <div class="mt-action-info ">
+                                                                    <div class="mt-action-icon ">
+                                                                        <i class="icon-action-redo"></i>
+                                                                    </div>
+                                                                    <div class="mt-action-details ">
+                                                                        <span class="mt-action-author">Frank Cameron</span>
+                                                                        <p class="mt-action-desc">Lorem Ipsum is simply dummy</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mt-action-datetime ">
+                                                                    <span class="mt-action-date">3 jun</span>
+                                                                    <span class="mt-action-dot bg-red"></span>
+                                                                    <span class="mt=action-time">9:30-13:00</span>
+                                                                </div>
+                                                                <div class="mt-action-buttons ">
+                                                                    <div class="btn-group btn-group-circle">
+                                                                        <button type="button" class="btn btn-outline green btn-sm">Appove</button>
+                                                                        <button type="button" class="btn btn-outline red btn-sm">Reject</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mt-action">
+                                                        <div class="mt-action-img">
+                                                            <img src="../assets/pages/media/users/avatar8.jpg" /> </div>
+                                                        <div class="mt-action-body">
+                                                            <div class="mt-action-row">
+                                                                <div class="mt-action-info ">
+                                                                    <div class="mt-action-icon ">
+                                                                        <i class="icon-cup"></i>
+                                                                    </div>
+                                                                    <div class="mt-action-details ">
+                                                                        <span class="mt-action-author">Ella Davidson </span>
+                                                                        <p class="mt-action-desc">Text of the printing and typesetting industry</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mt-action-datetime ">
+                                                                    <span class="mt-action-date">3 jun</span>
+                                                                    <span class="mt-action-dot bg-green"></span>
+                                                                    <span class="mt=action-time">9:30-13:00</span>
+                                                                </div>
+                                                                <div class="mt-action-buttons">
+                                                                    <div class="btn-group btn-group-circle">
+                                                                        <button type="button" class="btn btn-outline green btn-sm">Appove</button>
+                                                                        <button type="button" class="btn btn-outline red btn-sm">Reject</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mt-action">
+                                                        <div class="mt-action-img">
+                                                            <img src="../assets/pages/media/users/avatar5.jpg" /> </div>
+                                                        <div class="mt-action-body">
+                                                            <div class="mt-action-row">
+                                                                <div class="mt-action-info ">
+                                                                    <div class="mt-action-icon ">
+                                                                        <i class=" icon-graduation"></i>
+                                                                    </div>
+                                                                    <div class="mt-action-details ">
+                                                                        <span class="mt-action-author">Jason Dickens </span>
+                                                                        <p class="mt-action-desc">Dummy text of the printing and typesetting industry</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mt-action-datetime ">
+                                                                    <span class="mt-action-date">3 jun</span>
+                                                                    <span class="mt-action-dot bg-red"></span>
+                                                                    <span class="mt=action-time">9:30-13:00</span>
+                                                                </div>
+                                                                <div class="mt-action-buttons ">
+                                                                    <div class="btn-group btn-group-circle">
+                                                                        <button type="button" class="btn btn-outline green btn-sm">Appove</button>
+                                                                        <button type="button" class="btn btn-outline red btn-sm">Reject</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mt-action">
+                                                        <div class="mt-action-img">
+                                                            <img src="../assets/pages/media/users/avatar2.jpg" /> </div>
+                                                        <div class="mt-action-body">
+                                                            <div class="mt-action-row">
+                                                                <div class="mt-action-info ">
+                                                                    <div class="mt-action-icon ">
+                                                                        <i class="icon-badge"></i>
+                                                                    </div>
+                                                                    <div class="mt-action-details ">
+                                                                        <span class="mt-action-author">Jan Kim</span>
+                                                                        <p class="mt-action-desc">Lorem Ipsum is simply dummy</p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mt-action-datetime ">
+                                                                    <span class="mt-action-date">3 jun</span>
+                                                                    <span class="mt-action-dot bg-green"></span>
+                                                                    <span class="mt=action-time">9:30-13:00</span>
+                                                                </div>
+                                                                <div class="mt-action-buttons ">
+                                                                    <div class="btn-group btn-group-circle">
+                                                                        <button type="button" class="btn btn-outline green btn-sm">Appove</button>
+                                                                        <button type="button" class="btn btn-outline red btn-sm">Reject</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- END: Completed -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END CONTENT BODY -->
+                </div>
+                <!-- END CONTENT -->
+            </div>
+            <!-- END CONTAINER -->
+            <!-- BEGIN FOOTER -->
+            <div class="page-footer">
+                <div class="page-footer-inner"> Copyright &copy; eGadget Thailand</div>
+            </div>
+            <!-- END FOOTER -->
+        </div>
+        <!--[if lt IE 9]>
+        <script src="../assets/global/plugins/respond.min.js"></script>
+        <script src="../assets/global/plugins/excanvas.min.js"></script>
+        <script src="../assets/global/plugins/ie8.fix.min.js"></script>
+        <![endif]-->
+        <!-- BEGIN CORE PLUGINS -->
+        <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+        <script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+        <!-- <script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script> -->
+        <!-- <script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script> -->
+        <!-- <script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script> -->
+        <!-- <script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script> -->
+        <!-- END CORE PLUGINS -->
+        <!-- BEGIN THEME GLOBAL SCRIPTS -->
+        <script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>
+        <!-- END THEME GLOBAL SCRIPTS -->
+        <!-- BEGIN THEME LAYOUT SCRIPTS -->
+        <script src="../assets/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>
+        <!-- <script src="../assets/layouts/layout/scripts/demo.min.js" type="text/javascript"></script> -->
+        <!-- <script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script> -->
+        <!-- <script src="../assets/layouts/global/scripts/quick-nav.min.js" type="text/javascript"></script> -->
+        <!-- END THEME LAYOUT SCRIPTS -->
+    </body>
+
+</html>
