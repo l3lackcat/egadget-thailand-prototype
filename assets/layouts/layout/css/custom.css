@@ -4,9 +4,6 @@
 .icon-lazada { background-image: url("../img/lazada.png"); }
 .icon-web { background-image: url("../img/web.png"); }
 
-/*.mt-action-datetime { padding-top: 0 !important; }*/
-/*.mt-action-buttons  { padding-top: 0 !important; }*/
-
 .item-stat-title {
   color: #7f90a4;
   font-size: 11px;
@@ -20,36 +17,67 @@
   text-align: center;
 }
 
-.todo-sidebar {
+#order .order-sidebar {
   float: left;
   width: 230px;
   margin-right: 20px;
 }
 
-.todo-content {
+#order .order-content {
   overflow: hidden;
 }
 
-.todo-project-list ul li a {
+#order .order-status-list ul li a {
   font-size: 14px !important;
   padding: 8px 10px;
 }
 
-.todo-project-list .nav li a .badge {
+#order .order-status-list .nav li a .badge {
   float: right;
   margin-top: 1px !important;
 }
 
-.todo-project-list .nav > li.active > a {
+#order .order-status-list .nav > li.active > a {
   color: #3f444a;
   background-color: #f1f4f7 !important;
 }
 
-.table-order thead tr th { font-weight: bold; }
-.table-order tbody tr td.col-checkbox { width: 20px; }
-.table-order tbody tr td.col-icon { width: 20px; }
-.table-order tbody tr td.col-order-id { width: 120px; }
-.table-order tbody tr td.col-phone { width: 100px; }
-.table-order tbody tr td.col-price { width: 100px; }
-.table-order tbody tr td.col-date { width: 100px; }
-.table-order tbody tr td.col-action { width: 125px; }
+#order .table-order thead tr th { font-weight: bold; }
+#order .table-order tbody tr td.col-checkbox { width: 20px; }
+#order .table-order tbody tr td.col-icon { width: 20px; }
+#order .table-order tbody tr td.col-order-id { width: 120px; }
+#order .table-order tbody tr td.col-phone { width: 120px; }
+#order .table-order tbody tr td.col-price { width: 100px; }
+#order .table-order tbody tr td.col-date { width: 100px; }
+#order .table-order tbody tr td.col-action { width: 60px; }
+
+#product .product-sidebar {
+  float: left;
+  width: 230px;
+  margin-right: 20px;
+}
+
+#product .product-content {
+  overflow: hidden;
+}
+
+#product .product-status-list ul li a {
+  font-size: 14px !important;
+  padding: 8px 10px;
+}
+
+#product .product-status-list .nav li a .badge {
+  float: right;
+  margin-top: 1px !important;
+}
+
+#product .product-status-list .nav > li.active > a {
+  color: #3f444a;
+  background-color: #f1f4f7 !important;
+}
+
+#product .table-product thead tr th { font-weight: bold; }
+/*#product .table-product tbody tr td.col-checkbox { width: 20px; }*/
+#product .table-product tbody tr td.col-icon { width: 20px; }
+#product .table-product tbody tr td.col-quantity { width: 100px; }
+#product .table-product tbody tr td.col-price { width: 100px; }

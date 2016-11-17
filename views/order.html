@@ -170,8 +170,8 @@ License: You must have a valid license purchased only from themeforest(the above
                     <div class="page-content">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="todo-ui">
-                                    <div class="todo-sidebar hidden-md hidden-sm hidden-xs">
+                                <div id="order">
+                                    <div class="order-sidebar hidden-md hidden-sm hidden-xs">
                                         <div class="portlet light ">
                                             <div class="portlet-title">
                                                 <div class="caption">
@@ -179,11 +179,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                                 </div>
                                             </div>
                                             <div class="portlet-body" style="height: auto;">
-                                                <div class="todo-project-list">
+                                                <div class="order-status-list">
                                                     <ul class="nav nav-pills nav-stacked">
-                                                        <li class="active">
+                                                        <li>
                                                             <a href="javascript:;">
-                                                                <span class="badge badge-default"> 88 </span>
+                                                                <span class="badge badge-Primary"> 88 </span>
                                                                 <span> All </span>
                                                             </a>
                                                         </li>
@@ -218,12 +218,11 @@ License: You must have a valid license purchased only from themeforest(the above
                                     </div>
                                     <!-- END TODO SIDEBAR -->
                                     <!-- BEGIN TODO CONTENT -->
-                                    <div class="todo-content">
+                                    <div class="order-content">
                                         <div class="portlet light ">
                                             <div class="portlet-title tabbable-line">
                                                 <div class="caption">
-                                                    <i class=" icon-social-twitter font-dark hide"></i>
-                                                    <span class="caption-subject font-dark bold uppercase"> Order </span>
+                                                    <span class="caption-subject bold uppercase"> Order </span>
                                                 </div>
                                                 <div class="inputs">
                                                     <div class="portlet-input input-inline input-small">
@@ -248,7 +247,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <th class="col-phone"> Phone </th>
                                                             <th class="col-address"> Customer Detail </th>
                                                             <th class="col-price"> Price </th>
-                                                            <th class="col-date"> Date </th>
+                                                            <th class="col-date text-center"> Date </th>
                                                             <th class="col-action"> &nbsp; </th>
                                                         </tr>
                                                     </thead>
@@ -261,12 +260,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </label>
                                                             </td>
                                                             <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9979 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -281,8 +280,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
+                                                                        <i class="fa fa-dropbox"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -293,13 +296,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <span></span>
                                                                 </label>
                                                             </td>
-                                                            <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                            <td class="col-icon font-blue-steel">
+                                                                <i class="fa fa-dropbox"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9980 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -314,8 +317,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs green">
+                                                                        <i class="fa fa-check"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -326,13 +333,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <span></span>
                                                                 </label>
                                                             </td>
-                                                            <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                            <td class="col-icon font-green">
+                                                                <i class="fa fa-check"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9981 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -345,12 +352,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
-                                                            <td class="col-action">
-                                                                <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
-                                                                </div>
-                                                            </td>
+                                                            <td class="col-action"> &nbsp; </td>
                                                         </tr>
                                                         <tr>
                                                             <td class="col-checkbox">
@@ -359,13 +361,13 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                     <span></span>
                                                                 </label>
                                                             </td>
-                                                            <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                            <td class="col-icon font-red">
+                                                                <i class="fa fa-times"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9982 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -378,12 +380,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
-                                                            <td class="col-action">
-                                                                <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
-                                                                </div>
-                                                            </td>
+                                                            <td class="col-action"> &nbsp; </td>
                                                         </tr>
                                                         <tr>
                                                             <td class="col-checkbox">
@@ -393,12 +390,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </label>
                                                             </td>
                                                             <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9983 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -413,8 +410,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
+                                                                        <i class="fa fa-dropbox"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -426,12 +427,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </label>
                                                             </td>
                                                             <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9984 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -446,8 +447,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
+                                                                        <i class="fa fa-dropbox"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -459,12 +464,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </label>
                                                             </td>
                                                             <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9985 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -479,8 +484,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
+                                                                        <i class="fa fa-dropbox"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -492,12 +501,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </label>
                                                             </td>
                                                             <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9986 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -512,8 +521,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
+                                                                        <i class="fa fa-dropbox"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -525,12 +538,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </label>
                                                             </td>
                                                             <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9987 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -545,8 +558,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
+                                                                        <i class="fa fa-dropbox"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -558,12 +575,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </label>
                                                             </td>
                                                             <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9988 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -578,8 +595,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
+                                                                        <i class="fa fa-dropbox"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -591,12 +612,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </label>
                                                             </td>
                                                             <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9989 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -611,8 +632,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
+                                                                        <i class="fa fa-dropbox"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -624,12 +649,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </label>
                                                             </td>
                                                             <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9990 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -644,8 +669,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
+                                                                        <i class="fa fa-dropbox"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -657,12 +686,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </label>
                                                             </td>
                                                             <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9991 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -677,8 +706,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
+                                                                        <i class="fa fa-dropbox"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -690,12 +723,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </label>
                                                             </td>
                                                             <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9992 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -710,8 +743,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
+                                                                        <i class="fa fa-dropbox"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -723,12 +760,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </label>
                                                             </td>
                                                             <td class="col-icon font-yellow-crusta">
-                                                                <i class="fa fa-shopping-cart"></i>
+                                                                <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
                                                                 <a href="#"> #2016-11-9993 </a>
                                                             </td>
-                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
                                                                 <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
                                                                 <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
@@ -743,8 +780,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <td class="col-date text-center"> 16-Nov-16 </td>
                                                             <td class="col-action">
                                                                 <div class="btn-group pull-right">
-                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
-                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
+                                                                        <i class="fa fa-dropbox"></i>
+                                                                    </a>
+                                                                    <a href="javascript:;" class="btn btn-outline btn-xs red">
+                                                                        <i class="fa fa-times"></i>
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
