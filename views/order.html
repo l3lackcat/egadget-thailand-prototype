@@ -225,62 +225,547 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <i class=" icon-social-twitter font-dark hide"></i>
                                                     <span class="caption-subject font-dark bold uppercase"> Order </span>
                                                 </div>
+                                                <div class="inputs">
+                                                    <div class="portlet-input input-inline input-small">
+                                                        <div class="input-icon right">
+                                                            <i class="icon-magnifier"></i>
+                                                            <input type="text" class="form-control" placeholder="search..."> </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="portlet-body">
-                                                <table class="table table-striped table-advance table-hover">
+                                                <table class="table table-striped table-advance table-order">
                                                     <thead>
                                                         <tr>
-                                                            <th colspan="3">
+                                                            <th>
                                                                 <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
                                                                     <input type="checkbox" class="mail-group-checkbox">
                                                                     <span></span>
                                                                 </label>
-                                                                <div class="btn-group input-actions">
-                                                                    <a class="btn btn-sm blue btn-outline dropdown-toggle sbold" href="javascript:;" data-toggle="dropdown"> Actions
-                                                                        <i class="fa fa-angle-down"></i>
-                                                                    </a>
-                                                                    <ul class="dropdown-menu">
-                                                                        <li>
-                                                                            <a href="javascript:;">
-                                                                                <i class="fa fa-pencil"></i> Mark as Read </a>
-                                                                        </li>
-                                                                        <li>
-                                                                            <a href="javascript:;">
-                                                                                <i class="fa fa-ban"></i> Spam </a>
-                                                                        </li>
-                                                                        <li class="divider"> </li>
-                                                                        <li>
-                                                                            <a href="javascript:;">
-                                                                                <i class="fa fa-trash-o"></i> Delete </a>
-                                                                        </li>
-                                                                    </ul>
-                                                                </div>
                                                             </th>
+                                                            <th class="col-icon"> &nbsp; </th>
+                                                            <th class="col-order-id"> Order No. </th>
+                                                            <th class="col-phone"> Phone </th>
+                                                            <th class="col-address"> Customer Detail </th>
+                                                            <th class="col-price"> Price </th>
+                                                            <th class="col-date"> Date </th>
+                                                            <th class="col-action"> &nbsp; </th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <td class="inbox-small-cells" width="30">
+                                                            <td class="col-checkbox">
                                                                 <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
                                                                     <input type="checkbox" class="mail-checkbox" value="1">
                                                                     <span></span>
                                                                 </label>
                                                             </td>
-                                                            <td class="inbox-small-cells" width="30">
+                                                            <td class="col-icon font-yellow-crusta">
                                                                 <i class="fa fa-shopping-cart"></i>
                                                             </td>
-                                                            <td class="view-message"> #100 </td>
-                                                            <td class="view-message"> Suphakiat Lohasammakul </td>
-                                                            <td class="view-message hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </td>
-                                                            <td class="inbox-small-cells" width="30">
-                                                                <i class="fa fa-credit-card"></i>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9979 </a>
                                                             </td>
-                                                            <td class="inbox-small-cells" width="30">
-                                                                <i class="fa fa-money"></i>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
                                                             </td>
-                                                            <td class="view-message"> 16-Nov-16 </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-money"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9980 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-money"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9981 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9982 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9983 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9984 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9985 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9986 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9987 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9988 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9989 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9990 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9991 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9992 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="col-checkbox">
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-checkbox" value="1">
+                                                                    <span></span>
+                                                                </label>
+                                                            </td>
+                                                            <td class="col-icon font-yellow-crusta">
+                                                                <i class="fa fa-shopping-cart"></i>
+                                                            </td>
+                                                            <td class="col-order-id">
+                                                                <a href="#"> #2016-11-9993 </a>
+                                                            </td>
+                                                            <td class="col-phone"> 0899999999 </td>
+                                                            <td class="col-address">
+                                                                <div class="font-grey-gallery"> Suphakiat Lohasammakul </div>
+                                                                <div class="font-grey-gallery hidden-md hidden-sm hidden-xs"> 275/13 Soi Ladprao 26, Jompon, Chatuchak, Bangkok 10900 </div>
+                                                                <div class="font-grey-salsa hidden-md hidden-sm hidden-xs"> Fixed rate shipping </div>
+                                                            </td>
+                                                            <td class="col-price">
+                                                                <span>
+                                                                    <i class="fa fa-credit-card"></i>
+                                                                </span>
+                                                                <span class="pull-right"> ฿9,999 </span>
+                                                            </td>
+                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-action">
+                                                                <div class="btn-group pull-right">
+                                                                    <button type="button" class="btn btn-outline green btn-xs">Approve</button>
+                                                                    <button type="button" class="btn btn-outline red btn-xs">Cancel</button>
+                                                                </div>
+                                                            </td>
                                                         </tr>
                                                     </tbody>
+                                                    <thead>
+                                                        <tr>
+                                                            <th>
+                                                                <label class="mt-checkbox mt-checkbox-single mt-checkbox-outline">
+                                                                    <input type="checkbox" class="mail-group-checkbox">
+                                                                    <span></span>
+                                                                </label>
+                                                            </th>
+                                                            <th class="col-icon"> &nbsp; </th>
+                                                            <th class="col-order-id"> Order No. </th>
+                                                            <th class="col-phone"> Phone </th>
+                                                            <th class="col-address"> Customer Detail </th>
+                                                            <th class="col-price"> Price </th>
+                                                            <th class="col-date"> Date </th>
+                                                            <th class="col-action"> &nbsp; </th>
+                                                        </tr>
+                                                    </thead>
                                                 </table>
                                             </div>
                                         </div>

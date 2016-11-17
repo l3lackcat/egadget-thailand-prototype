@@ -44,3 +44,12 @@
   color: #3f444a;
   background-color: #f1f4f7 !important;
 }
+
+.table-order thead tr th { font-weight: bold; }
+.table-order tbody tr td.col-checkbox { width: 20px; }
+.table-order tbody tr td.col-icon { width: 20px; }
+.table-order tbody tr td.col-order-id { width: 120px; }
+.table-order tbody tr td.col-phone { width: 100px; }
+.table-order tbody tr td.col-price { width: 100px; }
+.table-order tbody tr td.col-date { width: 100px; }
+.table-order tbody tr td.col-action { width: 125px; }
