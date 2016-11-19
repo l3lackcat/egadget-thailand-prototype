@@ -52,7 +52,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="page-header-inner ">
                     <!-- BEGIN LOGO -->
                     <div class="page-logo">
-                        <a href="#">
+                        <a href="javascript:;">
                             <img src="../assets/layouts/layout/img/logo.png" alt="logo" class="logo-default" />
                         </a>
                         <div class="menu-toggler sidebar-toggler">
@@ -78,7 +78,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-default">
                                     <li>
-                                        <a href="#">
+                                        <a href="javascript:;">
                                             <i class="icon-user"></i> My Profile </a>
                                     </li>
                                     <li class="divider"> </li>
@@ -117,7 +117,7 @@ License: You must have a valid license purchased only from themeforest(the above
                         <ul class="page-sidebar-menu  page-header-fixed " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
                             <!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
                             <li class="nav-item start ">
-                                <a href="#" class="nav-link nav-toggle">
+                                <a href="dashboard.html" class="nav-link nav-toggle">
                                     <i class="icon-home"></i>
                                     <span class="title"> Dashboard </span>
                                 </a>
@@ -125,35 +125,54 @@ License: You must have a valid license purchased only from themeforest(the above
                             <li class="nav-item">
                                 <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="icon-diamond"></i>
-                                    <span class="title"> Product </span>
+                                    <span class="title"> Orders </span>
                                     <span class="arrow"></span>
                                 </a>
                                 <ul class="sub-menu">
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">
+                                        <a href="order-list.html" class="nav-link">
+                                            <span class="title"> Orders </span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="order.html" class="nav-link">
+                                            <span class="title"> Add Order </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="icon-diamond"></i>
+                                    <span class="title"> Products </span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="nav-item">
+                                        <a href="product-list.html" class="nav-link">
                                             <span class="title"> Products </span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">
+                                        <a href="product.html" class="nav-link">
                                             <span class="title"> Add Products </span>
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">
-                                            <span class="title"> Category </span>
+                                        <a href="javascript:;" class="nav-link">
+                                            <span class="title"> Categories </span>
                                         </a>
                                     </li>
                                 </ul>
                             </li>
                             <li class="nav-item start">
-                                <a href="#" class="nav-link nav-toggle">
+                                <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="icon-home"></i>
                                     <span class="title"> Inventory </span>
                                 </a>
                             </li>
                             <li class="nav-item start">
-                                <a href="#" class="nav-link nav-toggle">
+                                <a href="javascript:;" class="nav-link nav-toggle">
                                     <i class="icon-home"></i>
                                     <span class="title"> Warranty </span>
                                 </a>
@@ -220,7 +239,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                     <!-- BEGIN TODO CONTENT -->
                                     <div class="order-content">
                                         <div class="portlet light ">
-                                            <div class="portlet-title tabbable-line">
+                                            <div class="portlet-title">
                                                 <div class="caption">
                                                     <span class="caption-subject sbold uppercase"> Order </span>
                                                 </div>
@@ -228,12 +247,12 @@ License: You must have a valid license purchased only from themeforest(the above
                                                     <div class="portlet-input input-inline input-small">
                                                         <div class="input-icon right">
                                                             <i class="icon-magnifier"></i>
-                                                            <input type="text" class="form-control" placeholder="search..."> </div>
+                                                            <input type="text" class="form-control input-circle" placeholder="search..."> </div>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="portlet-body">
-                                                <table class="table table-striped table-advance table-order">
+                                                <table class="table table-hover my-table">
                                                     <thead>
                                                         <tr>
                                                             <th>
@@ -247,7 +266,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                             <th class="col-phone"> Phone </th>
                                                             <th class="col-address"> Customer Detail </th>
                                                             <th class="col-price"> Price </th>
-                                                            <th class="col-date text-center"> Date </th>
+                                                            <th class="col-date text-right"> Date </th>
                                                             <th class="col-action"> &nbsp; </th>
                                                         </tr>
                                                     </thead>
@@ -263,7 +282,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9979 </a>
+                                                                <a href="javascript:;"> #2016-11-9979 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -277,9 +296,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
                                                                         <i class="fa fa-dropbox"></i>
                                                                     </a>
@@ -300,7 +319,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-dropbox"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9980 </a>
+                                                                <a href="javascript:;"> #2016-11-9980 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -314,9 +333,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs green">
                                                                         <i class="fa fa-check"></i>
                                                                     </a>
@@ -337,7 +356,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-check"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9981 </a>
+                                                                <a href="javascript:;"> #2016-11-9981 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -351,7 +370,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action"> &nbsp; </td>
                                                         </tr>
                                                         <tr>
@@ -365,7 +384,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-times"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9982 </a>
+                                                                <a href="javascript:;"> #2016-11-9982 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -379,7 +398,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action"> &nbsp; </td>
                                                         </tr>
                                                         <tr>
@@ -393,7 +412,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9983 </a>
+                                                                <a href="javascript:;"> #2016-11-9983 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -407,9 +426,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
                                                                         <i class="fa fa-dropbox"></i>
                                                                     </a>
@@ -430,7 +449,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9984 </a>
+                                                                <a href="javascript:;"> #2016-11-9984 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -444,9 +463,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
                                                                         <i class="fa fa-dropbox"></i>
                                                                     </a>
@@ -467,7 +486,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9985 </a>
+                                                                <a href="javascript:;"> #2016-11-9985 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -481,9 +500,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
                                                                         <i class="fa fa-dropbox"></i>
                                                                     </a>
@@ -504,7 +523,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9986 </a>
+                                                                <a href="javascript:;"> #2016-11-9986 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -518,9 +537,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
                                                                         <i class="fa fa-dropbox"></i>
                                                                     </a>
@@ -541,7 +560,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9987 </a>
+                                                                <a href="javascript:;"> #2016-11-9987 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -555,9 +574,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
                                                                         <i class="fa fa-dropbox"></i>
                                                                     </a>
@@ -578,7 +597,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9988 </a>
+                                                                <a href="javascript:;"> #2016-11-9988 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -592,9 +611,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
                                                                         <i class="fa fa-dropbox"></i>
                                                                     </a>
@@ -615,7 +634,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9989 </a>
+                                                                <a href="javascript:;"> #2016-11-9989 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -629,9 +648,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
                                                                         <i class="fa fa-dropbox"></i>
                                                                     </a>
@@ -652,7 +671,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9990 </a>
+                                                                <a href="javascript:;"> #2016-11-9990 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -666,9 +685,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
                                                                         <i class="fa fa-dropbox"></i>
                                                                     </a>
@@ -689,7 +708,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9991 </a>
+                                                                <a href="javascript:;"> #2016-11-9991 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -703,9 +722,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
                                                                         <i class="fa fa-dropbox"></i>
                                                                     </a>
@@ -726,7 +745,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9992 </a>
+                                                                <a href="javascript:;"> #2016-11-9992 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -740,9 +759,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
                                                                         <i class="fa fa-dropbox"></i>
                                                                     </a>
@@ -763,7 +782,7 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <i class="fa fa-clock-o"></i>
                                                             </td>
                                                             <td class="col-order-id">
-                                                                <a href="#"> #2016-11-9993 </a>
+                                                                <a href="javascript:;"> #2016-11-9993 </a>
                                                             </td>
                                                             <td class="col-phone"> 089-999-9999 </td>
                                                             <td class="col-address">
@@ -777,9 +796,9 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 </span>
                                                                 <span class="pull-right"> ฿9,999 </span>
                                                             </td>
-                                                            <td class="col-date text-center"> 16-Nov-16 </td>
+                                                            <td class="col-date text-right"> 16-Nov-16 </td>
                                                             <td class="col-action">
-                                                                <div class="btn-group pull-right">
+                                                                <div class="btn-group btn-group-circle pull-right">
                                                                     <a href="javascript:;" class="btn btn-outline btn-xs blue-steel">
                                                                         <i class="fa fa-dropbox"></i>
                                                                     </a>
