@@ -77,3 +77,5 @@
   color: #3f444a;
   background-color: #f1f4f7 !important;
 }
+
+.mt-checkbox-list .mt-checkbox:last-child { margin-bottom: 0; }

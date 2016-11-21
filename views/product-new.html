@@ -155,13 +155,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="product.html" class="nav-link">
+                                        <a href="product-new.html" class="nav-link">
                                             <span class="title"> Add Products </span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="javascript:;" class="nav-link">
-                                            <span class="title"> Categories </span>
                                         </a>
                                     </li>
                                 </ul>
@@ -239,6 +234,15 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <div class="row">
                                                                     <div class="col-md-6">
                                                                         <div class="form-group">
+                                                                            <label> Quantity </label>
+                                                                            <div class="input-group">
+                                                                                <input type="text" class="form-control">
+                                                                                <span class="input-group-addon">Item</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-6">
+                                                                        <div class="form-group">
                                                                             <label> Warranty term </label>
                                                                             <div class="input-group">
                                                                                 <input type="text" class="form-control">
@@ -246,6 +250,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                             </div>
                                                                         </div>
                                                                     </div>
+                                                                </div>
+                                                                <div class="row">
                                                                     <div class="col-md-6">
                                                                         <div class="form-group">
                                                                             <label> Status </label>
@@ -303,29 +309,55 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <span class="caption-subject sbold uppercase"> Category </span>
                                                                 </span>
                                                             </div>
+                                                            <div class="actions">
+                                                                <a href="javascript:;" class="btn btn-link">
+                                                                    <i class="fa fa-plus"></i>
+                                                                    <span class="hidden-xs"> Add a category </span>
+                                                                </a>
+                                                            </div>
                                                         </div>
-                                                        <div class="portlet-body form">
-                                                            <form role="form">
-                                                                <div class="form-body">
-                                                                    <!-- <h3 class="form-section"> Category </h3> -->
-                                                                    <div class="form-group">
-                                                                        <div class="mt-checkbox-list">
-                                                                            <label class="mt-checkbox mt-checkbox-outline"> Checkbox 1
-                                                                                <input type="checkbox" value="1" name="test">
-                                                                                <span></span>
-                                                                            </label>
-                                                                            <label class="mt-checkbox mt-checkbox-outline"> Checkbox 2
-                                                                                <input type="checkbox" value="1" name="test">
-                                                                                <span></span>
-                                                                            </label>
-                                                                            <label class="mt-checkbox mt-checkbox-outline"> Checkbox 3
-                                                                                <input type="checkbox" value="1" name="test">
-                                                                                <span></span>
-                                                                            </label>
-                                                                        </div>
+                                                        <div class="portlet-body">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="mt-checkbox-list">
+                                                                        <label class="mt-checkbox mt-checkbox-outline"> Checkbox 1
+                                                                            <input type="checkbox" value="1" name="test">
+                                                                            <span></span>
+                                                                        </label>
+                                                                        <label class="mt-checkbox mt-checkbox-outline"> Checkbox 2
+                                                                            <input type="checkbox" value="1" name="test">
+                                                                            <span></span>
+                                                                        </label>
+                                                                        <label class="mt-checkbox mt-checkbox-outline"> Checkbox 3
+                                                                            <input type="checkbox" value="1" name="test">
+                                                                            <span></span>
+                                                                        </label>
+                                                                        <label class="mt-checkbox mt-checkbox-outline"> Checkbox 3
+                                                                            <input type="checkbox" value="1" name="test">
+                                                                            <span></span>
+                                                                        </label>
+                                                                        <label class="mt-checkbox mt-checkbox-outline"> Checkbox 3
+                                                                            <input type="checkbox" value="1" name="test">
+                                                                            <span></span>
+                                                                        </label>
                                                                     </div>
                                                                 </div>
-                                                            </form>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group">
+                                                                        <input type="text" class="form-control" placeholder="Product Category">
+                                                                        <span class="input-group-btn">
+                                                                            <button id="genpassword" class="btn btn-success" type="button">
+                                                                                <i class="fa fa-check"></i>
+                                                                            </button>
+                                                                            <button id="genpassword" class="btn btn-danger" type="button">
+                                                                                <i class="fa fa-times"></i>
+                                                                            </button>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -336,9 +368,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <span class="caption-subject sbold uppercase"> Image </span>
                                                                 </span>
                                                             </div>
+                                                            <div class="actions">
+                                                                <a href="javascript:;" class="btn btn-link">
+                                                                    <i class="fa fa-plus"></i>
+                                                                    <span class="hidden-xs"> Select an image </span>
+                                                                </a>
+                                                            </div>
                                                         </div>
-                                                        <div class="portlet-body">
-                                                        </div>
+                                                        <div class="portlet-body"></div>
                                                     </div>
                                                 </div>
                                                 <div class="row">
@@ -348,9 +385,14 @@ License: You must have a valid license purchased only from themeforest(the above
                                                                 <span class="caption-subject sbold uppercase"> Gallery </span>
                                                                 </span>
                                                             </div>
+                                                            <div class="actions">
+                                                                <a href="javascript:;" class="btn btn-link">
+                                                                    <i class="fa fa-plus"></i>
+                                                                    <span class="hidden-xs"> Add images </span>
+                                                                </a>
+                                                            </div>
                                                         </div>
-                                                        <div class="portlet-body">
-                                                        </div>
+                                                        <div class="portlet-body"></div>
                                                     </div>
                                                 </div>
                                             </div>
