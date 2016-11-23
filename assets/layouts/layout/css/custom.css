@@ -52,6 +52,7 @@
 .my-table tbody tr td.col-icon { width: 20px; }
 .my-table tbody tr td.col-quantity { width: 100px; min-width: 100px; }
 .my-table tbody tr td.col-price { width: 100px; min-width: 100px; }
+.my-table tbody tr td.col-status { width: 60px; min-width: 60px; }
 
 #product .product-sidebar {
   float: left;
