@@ -1,4 +1,7 @@
 /* here you can put your own css to customize and override the theme */
+// .page-content { padding-left: 15px; padding-bottom: 15px; padding-right: 15px; }
+// .page-content { padding: 15px; } 
+
 .icon-facebook { background-image: url("../img/facebook.png"); }
 .icon-line { background-image: url("../img/line.png"); }
 .icon-lazada { background-image: url("../img/lazada.png"); }
