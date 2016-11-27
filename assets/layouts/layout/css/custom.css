@@ -7,6 +7,9 @@
 .icon-lazada { background-image: url("../img/lazada.png"); }
 .icon-web { background-image: url("../img/web.png"); }
 
+.widget-thumb .widget-thumb-wrap .widget-thumb-icon { font-size: 36px; }
+.sale-chart { height: 363px; }
+
 .item-stat-title {
   color: #7f90a4;
   font-size: 11px;
